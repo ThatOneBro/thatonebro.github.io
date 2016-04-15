@@ -1,0 +1,50 @@
+.blog-nav, .blog-index-nav
+    position: fixed
+    background: $red-main
+    width: 100%
+    bottom: 0
+    display: flex
+    align-items: center
+    
+    .logo
+        margin: 0 0 0 20px
+        +size(100px)
+        +hide-text
+        background:
+            image: url(/assets/img/Derrick-Farris-Logo.svg)
+            repeat: no-repeat
+    
+    .button
+        font:
+            family: 'Open Sans'
+            size: 20px
+        border: none
+        border-radius: 0
+        color: $red-main
+        background: white
+        margin: 0 10px 0 0
+        box-shadow: 0px 5px 9px 0px rgba(black, 0.4)
+        transition: all 100ms ease-in-out
+        
+        &:last-child
+            margin: 0
+        
+        &:hover
+            border: none
+            box-shadow: 0px 5px 9px 0px rgba(black, 0.5)
+    
+    .copyright-wrap
+        display: flex
+        flex-direction: column
+        margin: 0 20px 20px
+        flex-grow: 1
+        align-self: flex-end
+        
+        .copyright
+            float:
+            display: block
+            margin: 0
+            font:
+                family: 'Open Sans'
+            color: white
+            align-self: flex-end

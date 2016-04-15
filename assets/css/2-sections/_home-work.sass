@@ -1,0 +1,165 @@
+.work
+    text-align: center
+    padding-top: 100px
+    
+    h3
+        font:
+            family: 'Open Sans'
+            size: 16px
+            weight: 700
+        text-transform: uppercase
+        letter-spacing: 2px
+        padding: 0
+        margin: 0
+        
+    .work-wrap
+        margin: 40px 0 100px
+        height: 600px
+        min-width: 50%
+        display: flex
+        flex-direction: column
+        position: relative
+        justify-content: center
+        align-items: center
+        
+        .node
+            background: $red-main
+            width: 150px
+            height: 150px
+            border-radius: 50%
+            align-items: center
+            justify-content: center
+            display: flex
+            
+            &:hover
+                cursor: pointer
+            
+            &.out
+                animation: pop-out 150ms ease-in-out forwards
+                
+                @keyframes pop-out
+                    0%
+                        +transform(scale(1.2))
+                        
+                    100%
+                        +transform(scale(1))
+            
+            &.in
+                cursor: pointer
+                animation: pop-in 150ms ease-in-out forwards
+                
+                @keyframes pop-in
+                    0%
+                        +transform(scale(1))
+                        
+                    100%
+                        +transform(scale(1.2))
+            
+            &.outer-node
+                z-index: 2
+                
+            &.selected-node
+                z-index: 3
+            
+            h4
+                font:
+                    family: 'Open Sans'
+                    size: 18px
+                    weight: 700
+                color: white
+                text-transform: uppercase
+                letter-spacing: 1px
+                display: block
+                padding: 0
+                margin: 0
+                
+        .top-nodes-wrap
+            margin-bottom: -10px
+            width: 100%
+            display: flex
+            flex-direction: row
+            justify-content: center
+            z-index: 2
+            position: relative
+            transition: transform 300ms linear
+            
+            &.retracted
+                transform: translateY(145px)
+            
+            .top-node1
+                margin-right: 230px
+                transition: margin 300ms linear
+                
+                &.retracted
+                    margin-right: -150px
+                    align-self: center
+                
+            .top-node2
+                
+                &.retracted
+                    align-self: center
+                
+        .center-node
+            margin: -15px 0 0
+            z-index: 1
+    
+        .face-node
+            background: 
+                image: url("/assets/img/hall-mirror-cropped.jpg")
+                repeat: no-repeat
+                size: cover
+            z-index: 1
+            
+            &:hover
+                cursor: default
+                animation: none
+             
+            h4
+                +hide-text
+        
+        .connector
+            z-index: -1
+                
+        .top-connectors-wrap
+            display: flex
+            justify-content: center
+            transition: transform 250ms linear
+            
+            &.retracted
+                transform: translateY(80px)
+            
+            .top-connector
+                background: $darker-gray
+                height: 20px
+                width: 85px
+                transition: margin 300ms linear
+                
+                &:first-child
+                    margin-right: 110px
+                    +transform(rotate(40deg))
+                    
+                    &.retracted
+                        margin-right: -100px
+                
+                &:last-child
+                    +transform(rotate(-40deg))
+                    
+        .bottom-connector
+            height: 75px
+            width: 20px
+            background: $darker-gray
+            margin: 2px
+            transition: transform 300ms linear
+            
+            &.retracted
+                transform: translateY(-100px)
+        
+        
+        .bottom-node-wrap
+            transition: transform 300ms linear
+
+            &.retracted
+                transform: translateY(-230px)
+            
+        
+            

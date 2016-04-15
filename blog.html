@@ -1,0 +1,40 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Derrick Farris's Blog">
+  <meta rel="author" href="https://www.linkedin.com/in/derrickfarris">
+  <meta rel="publisher" href="https://www.linkedin.com/in/derrickfarris">
+
+  <title>{{ site.title }} | Blog Index</title>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+   <header class="header-blog-index">
+       <h1 class="blog-title">Blog Index</h1>
+   </header>
+   
+   <div class="post-list-wrap">
+        <div class="post-list">
+            {% for post in site.posts %}
+                <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+                <div class ="post-date">{{ post.date | date: '%B %d, %Y' }}</div>
+                <hr class="section-break">
+            {% endfor %}
+        </div>
+    </div>
+    
+    <nav class="blog-index-nav">
+        <h1 class="logo">Derrick Farris</h1>
+        <a href="/" class="home-return button">Site Home</a>
+        <div class="copyright-wrap"><p class="copyright">Copyright &copy; 2016 Derrick Farris</p></div>
+    </nav>
+</body>
+</html>

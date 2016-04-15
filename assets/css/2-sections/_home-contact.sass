@@ -1,0 +1,79 @@
+.contact
+    padding-top: 100px
+    text-align: center
+    
+    #contact
+        font:
+            family: 'Open Sans'
+            size: 16px
+            weight: 700
+        text-transform: uppercase
+        letter-spacing: 2px
+        padding: 0
+        margin: 0
+        
+    .links-wrap
+        margin: 40px auto 60px
+        padding: 0 20px
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        
+        .link
+            font:
+                family: 'Open Sans'
+                size: 20px
+                weight: 700
+            border-radius: 0
+            border: none
+            text-transform: uppercase
+            letter-spacing: 2px
+            background: $red-main
+            color: white
+            width: 200px
+            margin-right: 10px
+            display: inline-block
+            padding: 10px 0
+            height: auto
+            box-shadow: 0px 5px 9px 0px rgba(black, 0.4)
+            transition: all 100ms ease-in-out
+            
+            &:last-child
+                margin-right: 0
+            
+            &:hover
+                box-shadow: 0px 5px 9px 0px rgba(black, 0.5)
+            
+            .fa-github
+                margin-left: -15px
+                margin-right: 15px
+                
+            .fa-youtube-play
+                margin-left: -5px
+            
+            .fa-facebook
+                margin-left: 5px
+                margin-right: 5px
+            
+    .short-break
+        border: solid $lighter-gray 1px
+        width: 25%
+        margin: 0 auto
+        padding: 0
+        
+    .email
+        font:
+            family: 'Open Sans'
+            size: 60px
+            weight: 700
+        color: $lighter-gray
+        text-transform: uppercase
+        letter-spacing: 5px
+        transition: color 150ms ease-in-out
+        margin: 60px 0 100px
+        display: inline-block
+        padding: 0 10px
+            
+        &:hover
+            color: $darker-gray
