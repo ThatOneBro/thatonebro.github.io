@@ -4,9 +4,9 @@ title:  The Site Is Live!
 date: 2016-04-16 10:42:00
 ---
 
-I am so happy to annouce that this site is finally live! After putting in **many, many** hours into this project, 
+I am so happy to annouce that this site is finally live! After putting **many, many** hours into this project, 
 there is finally something to put up here at derrickfarris.com -- even if it's not 100% complete. 
-This has been an awesome learning experience, and I hope that I can share some of the process with you via interactive tutorials and projects.
+This has been an awesome learning experience, and I hope that I can pass on all this new knowledge that I've developed to you guys.
 
 <!--more-->
 
