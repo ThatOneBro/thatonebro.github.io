@@ -55,8 +55,10 @@ gulp.task('sass', function () {
 
 gulp.task('jade', function(){
    return gulp.src('_jade/*.jade')
-   .pipe(jade())
-   .pipe(gulp.dest('_includes'))
+       .pipe(jade({
+           pretty: true  
+       }))
+        .pipe(gulp.dest('_includes'))
 });
 
 /**
