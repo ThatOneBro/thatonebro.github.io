@@ -15,4 +15,4 @@ I want it to be a resource for those looking to learn about web design and/or pr
 No matter what you come to my website for, I want you to be able to get it -- unless it's my domain name 
 (stay away if your name is Derrick Farris too; I called it first).
 
-Anyways, thanks for visiting. My contact info is available at the bottom of my home page if you need it. Hope to work with you guys soon!
+Anyways, thanks for visiting. My contact info is available at the bottom of the home page if you need it. Hope to work with you guys soon!
