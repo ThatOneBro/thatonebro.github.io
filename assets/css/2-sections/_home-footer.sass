@@ -5,18 +5,33 @@
     height: 200px
     position: relative
     
+    @media (max-width: 675px)
+        height: auto
+        display: flex
+        flex-direction: column
+    
     .logo-footer
         +size(150px)
         float: left
         margin-top: 20px
         margin-left: 45px
         
+        @media (max-width: 675px)
+            position: static
+            margin-bottom: 20px
+        
+        @media (max-width: 675px)
+            margin: 20px auto
+            
     .home-footer-nav
         position: absolute
         top: 35px
         left: 240px
         display: flex
         flex-direction: column
+        
+        @media (max-width: 675px)
+            display: none
         
         .button
             font:
@@ -43,3 +58,6 @@
         position: absolute
         bottom: 10px
         right: 20px
+        
+        @media (max-width: 675px)
+            position: static

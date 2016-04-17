@@ -20,6 +20,9 @@
         align-items: center
         justify-content: center
         
+        @media screen and (max-width: 900px)
+            flex-direction: column
+        
         .link
             font:
                 family: 'Open Sans'
@@ -39,8 +42,16 @@
             box-shadow: 0px 5px 9px 0px rgba(black, 0.4)
             transition: all 100ms ease-in-out
             
+            @media screen and (max-width: 900px)
+                margin-right: 0px
+                margin-bottom: 10px
+            
             &:last-child
                 margin-right: 0
+            
+                @media screen and (max-width: 900px)
+                    margin: 0
+                    
             
             &:hover
                 box-shadow: 0px 5px 9px 0px rgba(black, 0.5)
@@ -65,8 +76,8 @@
     .email
         font:
             family: 'Open Sans'
-            size: 60px
             weight: 700
+            size: 60px
         color: $lighter-gray
         text-transform: uppercase
         letter-spacing: 5px
@@ -74,6 +85,23 @@
         margin: 60px 0 100px
         display: inline-block
         padding: 0 10px
+        
+        @media (max-width: 1130px)
+            font-size: 50px
+        
+        @media (max-width: 960px)
+            font-size: 40px
+            letter-spacing: 3px
+            
+        @media (max-width: 740px)
+            font-size: 30px
+            letter-spacing: 2px
+            padding: 0 5px
+            
+        @media (max-width: 550px)
+            font-size: 20px
+            letter-spacing: 0px
+            
             
         &:hover
             color: $darker-gray

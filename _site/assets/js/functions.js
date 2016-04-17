@@ -3,7 +3,6 @@ $(document).ready(function(){
     nodeJump();
     nodeRetract();
     
-    $('.email').fitText(1.2, {minFontSize: '20px', maxFontSize: '60px'});
 });
 
 function smoothScroll(duration){
