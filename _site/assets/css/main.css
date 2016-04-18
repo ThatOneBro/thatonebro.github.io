@@ -2725,8 +2725,7 @@ a {
     background-position: center;
     background-size: contain;
     height: 200px;
-    padding: 0;
-    margin: 30px 0;
+    padding: 30px 0;
     -ms-flex-positive: 1;
         flex-grow: 1; }
   .header-home .kicker {
