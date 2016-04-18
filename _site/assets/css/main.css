@@ -2665,9 +2665,9 @@ a {
   -ms-flex-align: center;
       align-items: center; }
   .blog-nav .logo, .blog-index-nav .logo {
-    margin: 0 0 0 20px;
-    height: 100px;
-    width: 100px;
+    margin: 10px 20px;
+    height: 80px;
+    width: 80px;
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
@@ -2726,7 +2726,7 @@ a {
     background-size: contain;
     height: 200px;
     padding: 0;
-    margin: 30px 0 0;
+    margin: 30px 0;
     -ms-flex-positive: 1;
         flex-grow: 1; }
   .header-home .kicker {
@@ -2798,24 +2798,19 @@ a {
   position: relative; }
   @media (max-width: 675px) {
     .footer-home {
-      height: auto;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column; } }
+      height: auto; } }
   .footer-home .logo-footer {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     float: left;
-    margin-top: 20px;
-    margin-left: 45px; }
+    margin-top: 25px;
+    margin-left: 50px; }
     @media (max-width: 675px) {
       .footer-home .logo-footer {
+        display: inline-block;
+        float: none;
         position: static;
-        margin-bottom: 20px; } }
-    @media (max-width: 675px) {
-      .footer-home .logo-footer {
-        margin: 20px auto; } }
+        margin: 20px; } }
   .footer-home .home-footer-nav {
     position: absolute;
     top: 35px;
@@ -2847,10 +2842,12 @@ a {
     color: white;
     position: absolute;
     bottom: 10px;
-    right: 20px; }
+    right: 20px;
+    margin: 0; }
     @media (max-width: 675px) {
       .footer-home .copyright {
-        position: static; } }
+        position: static;
+        padding-bottom: 20px; } }
 
 .work {
   text-align: center;

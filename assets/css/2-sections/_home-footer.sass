@@ -7,22 +7,18 @@
     
     @media (max-width: 675px)
         height: auto
-        display: flex
-        flex-direction: column
-    
+        
     .logo-footer
-        +size(150px)
+        +size(130px)
         float: left
-        margin-top: 20px
-        margin-left: 45px
+        margin-top: 25px
+        margin-left: 50px
         
         @media (max-width: 675px)
+            display: inline-block
             float: none
             position: static
-            margin-bottom: 20px
-        
-        @media (max-width: 675px)
-            margin: 20px auto
+            margin: 20px
             
     .home-footer-nav
         position: absolute
@@ -59,6 +55,8 @@
         position: absolute
         bottom: 10px
         right: 20px
+        margin: 0
         
         @media (max-width: 675px)
             position: static
+            padding-bottom: 20px
