@@ -2641,11 +2641,11 @@ a {
     padding: 2px 0px;
     width: 226px;
     height: auto;
-    transition: all 100ms ease-in-out; }
+    transition: all 150ms ease-in-out; }
     .home-nav .nav-tab:hover {
       color: #d9d9d9;
       background: #2e2e2e;
-      box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.1); }
+      box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.3); }
     .home-nav .nav-tab:last-child {
       margin-right: 0; }
 
@@ -2687,13 +2687,13 @@ a {
       margin: 0; }
     .blog-nav .button:hover, .blog-index-nav .button:hover {
       border: none;
-      box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.5); }
   .blog-nav .copyright-wrap, .blog-index-nav .copyright-wrap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    margin: 0 20px 20px;
+    margin: 0 20px 10px;
     -ms-flex-positive: 1;
         flex-grow: 1;
     -ms-flex-item-align: end;
@@ -2913,7 +2913,7 @@ a {
         margin: 0; }
       .footer-home .home-footer-nav .button:hover {
         border: none;
-        box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.5); }
+        box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.5); }
   .footer-home .copyright {
     color: white;
     position: absolute;
@@ -3296,7 +3296,7 @@ a {
           .contact .links-wrap .link:last-child {
             margin: 0; } }
       .contact .links-wrap .link:hover {
-        box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.5); }
+        box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.5); }
       .contact .links-wrap .link .fa-github {
         margin-left: -15px;
         margin-right: 15px; }
