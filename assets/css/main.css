@@ -2706,28 +2706,98 @@ a {
       -ms-flex-item-align: end;
           align-self: flex-end; }
 
+.mobile-nav-toggle {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 12;
+  border: none;
+  border-radius: 0;
+  background: #414040;
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4); }
+  @media (max-width: 650px) {
+    .mobile-nav-toggle {
+      display: block; } }
+  .mobile-nav-toggle span {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 17px;
+    width: 25px;
+    height: 2px;
+    background: white; }
+    .mobile-nav-toggle span:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 25px;
+      height: 2px;
+      background: white; }
+    .mobile-nav-toggle span:after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 25px;
+      height: 2px;
+      background: white; }
+
+.mobile-nav-home {
+  display: none;
+  background: #414040;
+  position: fixed;
+  height: 100vh;
+  width: 150px;
+  padding-top: 80px;
+  right: -150px;
+  z-index: 10;
+  transition: right 150ms linear; }
+  .mobile-nav-home.active {
+    right: 0px; }
+  @media (max-width: 650px) {
+    .mobile-nav-home {
+      display: block; } }
+  .mobile-nav-home .nav-tab {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    display: block;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    width: 90%;
+    border-radius: 0;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 2px solid white; }
+    .mobile-nav-home .nav-tab:first-child {
+      border-top: 2px solid white; }
+
 .header-home {
+  padding-top: 1px;
   background: #d73931;
   height: 400px;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
+  text-align: center; }
+  @media (max-width: 650px) {
+    .header-home {
+      height: auto;
+      padding-bottom: 1px; } }
   .header-home .logo {
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
+    display: block;
     background-image: url(/assets/img/Derrick-Farris-Logo2.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 200px;
-    padding: 30px 0;
-    -ms-flex-positive: 1;
-        flex-grow: 1; }
+    height: 180px;
+    padding: 0;
+    margin: 40px 0; }
   .header-home .kicker {
     text-align: center;
     color: white;
@@ -2741,24 +2811,31 @@ a {
       .header-home .kicker {
         font-size: 12px;
         letter-spacing: 3px; } }
+    @media (max-width: 340px) {
+      .header-home .kicker {
+        letter-spacing: 2px; } }
   .header-home hr {
     height: 10px;
     background: white;
-    margin: 0 auto 25px;
+    margin: 0 auto 30px;
     padding: 0;
     width: 300px; }
-  @media (max-width: 940px) {
+  @media (max-width: 960px) {
     .header-home .home-nav {
+      white-space: nowrap;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column;
-      -ms-flex-align: center;
-          align-items: center; } }
-  @media (max-width: 940px) {
-    .header-home .home-nav .button {
-      margin: 0;
-      width: 100%; } }
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: space-between;
+          align-items: space-between; } }
+  @media (max-width: 650px) {
+    .header-home .home-nav {
+      display: none; } }
+  @media (max-width: 960px) {
+    .header-home .home-nav .nav-tab {
+      margin-right: 0px;
+      max-width: 226px; } }
 
 .about {
   text-align: center;
@@ -3086,8 +3163,7 @@ a {
               font-size: 20px; } }
           @media (max-width: 370px) {
             .blog .blog-wrap .latest-post-wrap .latest-post a {
-              font-size: 18px;
-              padding: 15px 10px; } }
+              padding: 15px 8px; } }
     .blog .blog-wrap h4 {
       font-size: 18px;
       font-weight: 700;
