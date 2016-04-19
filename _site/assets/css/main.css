@@ -2807,7 +2807,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 40px; }
-    @media (max-width: 390px) {
+    @media (max-width: 420px) {
       .header-home .kicker {
         font-size: 12px;
         letter-spacing: 3px; } }
@@ -2949,6 +2949,9 @@ a {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center; }
+    @media (max-width: 580px) {
+      .work .work-wrap {
+        display: inline-block; } }
     .work .work-wrap .node {
       background: #d73931;
       width: 150px;
@@ -2960,6 +2963,16 @@ a {
           justify-content: center;
       display: -ms-flexbox;
       display: flex; }
+      @media (max-width: 580px) {
+        .work .work-wrap .node {
+          display: block; } }
+      @media (max-width: 580px) {
+        .work .work-wrap .node:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -0.25em; } }
       .work .work-wrap .node:hover {
         cursor: pointer; }
       .work .work-wrap .node.out {
@@ -3015,6 +3028,11 @@ a {
         display: block;
         padding: 0;
         margin: 0; }
+        @media (max-width: 580px) {
+          .work .work-wrap .node h4 {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 4px; } }
     .work .work-wrap .top-nodes-wrap {
       margin-bottom: -10px;
       width: 100%;
@@ -3028,6 +3046,10 @@ a {
       position: relative;
       transition: -webkit-transform 300ms linear;
       transition: transform 300ms linear; }
+      @media (max-width: 580px) {
+        .work .work-wrap .top-nodes-wrap {
+          display: block;
+          margin-bottom: 0; } }
       .work .work-wrap .top-nodes-wrap.retracted {
         -webkit-transform: translateY(145px);
                 transform: translateY(145px); }
@@ -3044,6 +3066,9 @@ a {
     .work .work-wrap .center-node {
       margin: -15px 0 0;
       z-index: 1; }
+      @media (max-width: 580px) {
+        .work .work-wrap .center-node {
+          margin-top: 0; } }
     .work .work-wrap .face-node {
       background-image: url("/assets/img/hall-mirror-cropped.jpg");
       background-repeat: no-repeat;
@@ -3059,6 +3084,9 @@ a {
         white-space: nowrap; }
     .work .work-wrap .connector {
       z-index: -1; }
+      @media (max-width: 580px) {
+        .work .work-wrap .connector {
+          display: none; } }
     .work .work-wrap .top-connectors-wrap {
       display: -ms-flexbox;
       display: flex;
