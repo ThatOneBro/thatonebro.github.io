@@ -1,9 +1,18 @@
 $(document).ready(function(){
+    mobileNavToggle();
     smoothScroll(350);
     nodeJump();
     nodeRetract();
     
 });
+
+function mobileNavToggle(){
+    var $mobileNav = $('.mobile-nav-home');
+    
+    $('.mobile-nav-toggle').on('click', function(){
+        $mobileNav.toggleClass('active');
+    });
+}
 
 function smoothScroll(duration){
 	$('a[href^="#"]').on('click', function(event){
