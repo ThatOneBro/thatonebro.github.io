@@ -3297,11 +3297,14 @@ a {
             margin: 0; } }
       .contact .links-wrap .link:hover {
         box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.5); }
+      .contact .links-wrap .link .fa-linkedin {
+        margin-right: 5px; }
       .contact .links-wrap .link .fa-github {
         margin-left: -15px;
         margin-right: 15px; }
       .contact .links-wrap .link .fa-youtube-play {
-        margin-left: -5px; }
+        margin-left: -5px;
+        margin-right: 10px; }
       .contact .links-wrap .link .fa-facebook {
         margin-left: 5px;
         margin-right: 5px; }
@@ -3393,7 +3396,8 @@ a {
       margin: 20px 0 5px;
       color: #d73931;
       letter-spacing: 3px;
-      font-weight: 700; }
+      font-weight: 700;
+      transition: all 150ms ease-in-out; }
       .post-list-wrap .post-list .post-link:hover {
         color: #2e2e2e; }
     .post-list-wrap .post-list .post-date {
