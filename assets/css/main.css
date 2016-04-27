@@ -3226,7 +3226,8 @@ a {
         margin: 0; }
         .blog .blog-wrap .other-recent-posts-wrap .other-recent-posts a {
           color: #d73931;
-          font-weight: 700; }
+          font-weight: 700;
+          letter-spacing: 1px; }
           .blog .blog-wrap .other-recent-posts-wrap .other-recent-posts a:hover {
             color: #2e2e2e; }
     .blog .blog-wrap .all-posts {
