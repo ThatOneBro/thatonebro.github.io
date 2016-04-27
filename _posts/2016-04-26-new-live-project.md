@@ -15,8 +15,11 @@ The project is a display of a **pure Javascript** (yep, no jQuery here) client a
 I put this project up to display how easily one can learn to use Javascript and Node.js with practically no experience at all.
 If you take a look at the front-end form code, you will quickly begin to appreciate what jQuery does. 
 No jQuery means lots of code for even the smallest dynamic result, albeit a not very impressive one. 
-I am thankful that I will no longer be restricting myself to pure Javascript after this project.
+I am thankful that I will no longer be restricting myself to pure Javascript ever again -- like seriously, it's awful.
+When you get the chance, you should definitely thank the developers who created jQuery and other Javascript libraries. They are the real heroes.
 
 Feel free to check out the GitHub repo if you are interested in viewing the code!
 
 [Github](https://github.com/ThatOneBro/Accounting-Journal-Database-Example "Accounting Database Repo")
+
+Thanks guys and have a great rest of your week!
