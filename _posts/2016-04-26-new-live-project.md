@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Live Project
-date: 2016-04-26 21:35:00 -0700
+date: 2016-04-26 21:35:00 -0600
 ---
 
 What is this, you say? A new live project available?
