@@ -1,7 +1,7 @@
 var scrollSpeed = 350; 
 
 /*------------------------------
-		Mobile Nav
+          Mobile Nav
 ------------------------------*/
 
 (function( $ ){
@@ -17,7 +17,7 @@ var scrollSpeed = 350;
 //====================================================================================================================//
 
 /*------------------------------
-		Smooth Scrolling
+       Smooth Scrolling
 ------------------------------*/
 
 (function( $ ){
@@ -31,7 +31,7 @@ var scrollSpeed = 350;
 				$scrollTop = $(window).scrollTop(),
 				sectionOffset = $target.parent().offset().top,
 				
-				distance = sectionOffset - scrollTop,
+				distance = sectionOffset - $scrollTop,
 				duration = distance / scrollSpeed ;
 			
 
@@ -48,7 +48,7 @@ var scrollSpeed = 350;
 //====================================================================================================================//
 
 /*------------------------------
-	Node Pop-In and Pop-Out
+    Node Pop-In and Pop-Out
 ------------------------------*/
 
 (function( $ ){
@@ -70,7 +70,7 @@ var scrollSpeed = 350;
 //====================================================================================================================//
 
 /*------------------------------
-		Node Retraction
+        Node Retraction
 ------------------------------*/
 (function( $ ) {
 	$(document).ready(function(){
