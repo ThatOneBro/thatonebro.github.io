@@ -17,24 +17,26 @@
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-   <header class="header-blog-index">
-       <h1 class="blog-title">Blog Index</h1>
-   </header>
-   
-   <div class="post-list-wrap">
-        <div class="post-list">
-            {% for post in site.posts %}
-                <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
-                <div class ="post-date">{{ post.date | date: '%B %d, %Y' }}</div>
-                <hr class="section-break">
-            {% endfor %}
+    <div class = "blog-wrap">
+        <header class="header-blog-index">
+           <h1 class="blog-title">Blog Index</h1>
+        </header>
+
+        <div class="post-list-wrap">
+            <div class="post-list">
+                {% for post in site.posts %}
+                    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+                    <div class ="post-date">{{ post.date | date: '%B %d, %Y' }}</div>
+                    <hr class="section-break">
+                {% endfor %}
+            </div>
         </div>
+
+        <nav class="blog-index-nav">
+            <h1 class="logo">Derrick Farris</h1>
+            <a href="/" class="home-return button">Site Home</a>
+            <div class="copyright-wrap"><p class="copyright">Copyright &copy; 2016 Derrick Farris</p></div>
+        </nav>
     </div>
-    
-    <nav class="blog-index-nav">
-        <h1 class="logo">Derrick Farris</h1>
-        <a href="/" class="home-return button">Site Home</a>
-        <div class="copyright-wrap"><p class="copyright">Copyright &copy; 2016 Derrick Farris</p></div>
-    </nav>
 </body>
 </html>

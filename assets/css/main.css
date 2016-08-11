@@ -2656,10 +2656,8 @@ a {
   padding: 0; }
 
 .blog-nav, .blog-index-nav {
-  position: fixed;
   background: #d73931;
   width: 100%;
-  bottom: 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -3352,8 +3350,7 @@ a {
       color: #2e2e2e; }
 
 .post {
-  font-family: 'Open Sans';
-  margin-bottom: 200px; }
+  font-family: 'Open Sans'; }
   .post .post-header {
     background: #d73931;
     color: white;
@@ -3367,50 +3364,56 @@ a {
       letter-spacing: 5px; }
     .post .post-header time {
       letter-spacing: 2px; }
-  .post .post-content p {
-    color: #414040;
-    font-size: 20px;
-    margin: 60px auto 0;
-    padding: 0 10px 0;
-    max-width: 875px;
-    line-height: 2; }
-    .post .post-content p:first-child {
-      margin-top: 100px; }
-    .post .post-content p strong {
-      color: #2e2e2e; }
+  .post .post-content {
+    padding: 100px 0; }
+    .post .post-content p {
+      color: #414040;
+      font-size: 20px;
+      margin: 60px auto 0;
+      padding: 0 10px 0;
+      max-width: 875px;
+      line-height: 2; }
+      .post .post-content p:first-child {
+        margin-top: 0; }
+      .post .post-content p strong {
+        color: #2e2e2e; }
 
-.header-blog-index {
+.blog-wrap .header-blog-index {
   background: #d73931;
   padding: 40px;
   text-align: center;
   font-family: 'Open Sans';
   text-transform: uppercase;
   box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4); }
-  .header-blog-index .blog-title {
+  .blog-wrap .header-blog-index .blog-title {
     color: white;
     margin: 0;
     letter-spacing: 5px; }
 
-.post-list-wrap {
+.blog-wrap .post-list-wrap {
   width: 100%;
   margin: 100px 0 200px;
   font-family: 'Open Sans';
   text-transform: uppercase; }
-  .post-list-wrap .post-list {
+  .blog-wrap .post-list-wrap .post-list {
     max-width: 300px;
     margin: 0 auto; }
-    .post-list-wrap .post-list .post-link {
+    .blog-wrap .post-list-wrap .post-list .post-link {
       display: inline-block;
       margin: 20px 0 5px;
       color: #d73931;
       letter-spacing: 3px;
       font-weight: 700;
       transition: all 150ms ease-in-out; }
-      .post-list-wrap .post-list .post-link:hover {
+      .blog-wrap .post-list-wrap .post-list .post-link:hover {
         color: #2e2e2e; }
-    .post-list-wrap .post-list .post-date {
+    .blog-wrap .post-list-wrap .post-list .post-date {
       color: #414040;
       margin: 0 0 20px;
       letter-spacing: 1px; }
-  .post-list-wrap .section-break {
+  .blog-wrap .post-list-wrap .section-break {
     width: 100%; }
+
+.blog-wrap .blog-index-nav {
+  position: fixed;
+  bottom: 0; }
