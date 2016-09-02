@@ -1,0 +1,3 @@
+projects:
+- {name: 'Accounting Database Example', link: 'http://accountingdb.derrickfarris.com'}
+- {name: 'Angular To-Do List App Example', link: 'http://todo.derrickfarris.com'}
