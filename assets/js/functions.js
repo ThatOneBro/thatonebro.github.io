@@ -38,7 +38,7 @@ var scrollSpeed = 0.25;
 			if ($target.length > 0) {
 				event.preventDefault();
 				$html.animate({
-					scrollTop: sectionOffset
+					$scrollTop: sectionOffset
 				}, duration);
 			}
 		});
