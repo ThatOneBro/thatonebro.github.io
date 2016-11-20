@@ -31,14 +31,14 @@ var scrollSpeed = 0.25;
 				$scrollTop = $(window).scrollTop(),
 				sectionOffset = $target.parent().offset().top,
 				
-				distance = sectionOffset - $scrollTop,
+				distance = Math.abs(sectionOffset - $scrollTop),
 				duration = distance * scrollSpeed;
 			
 
 			if ($target.length > 0) {
 				event.preventDefault();
 				$html.animate({
-					$scrollTop: sectionOffset
+					scrollTop: sectionOffset
 				}, duration);
 			}
 		});
