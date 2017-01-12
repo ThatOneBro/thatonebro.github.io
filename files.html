@@ -1,0 +1,41 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Derrick Farris's Blog">
+  <meta rel="author" href="https://www.linkedin.com/in/derrickfarris">
+  <meta rel="publisher" href="https://www.linkedin.com/in/derrickfarris">
+
+  <title>{{ site.title }} | Files</title>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <div class = "blog-wrap">
+        <header class="header-blog-index">
+           <h1 class="blog-title">Projects</h1>
+        </header>
+
+        <div class="post-list-wrap">
+            <div class="post-list">
+                {% for file in site.data.settings.files %}
+                    <a href="{{ file.link }}" class="post-link">{{ file.name }}</a>
+                    <hr class="section-break">
+                {% endfor %}
+            </div>
+        </div>
+
+        <nav class="blog-index-nav">
+            <h1 class="logo">Derrick Farris</h1>
+            <a href="/" class="home-return button">Site Home</a>
+            <div class="copyright-wrap"><p class="copyright">Copyright &copy; 2016 Derrick Farris</p></div>
+        </nav>
+    </div>
+</body>
+</html>
