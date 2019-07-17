@@ -1,3 +1,7 @@
 
 <div class="button mobile-nav-toggle"><span> </span></div>
-<nav class="mobile-nav-home"><a href="#about" class="nav-tab button">About</a><a href="#work" class="nav-tab button">Work</a><a href="#contact" class="nav-tab button">Contact</a></nav>
+<nav class="mobile-nav-home">
+    {% for link in site.data.nav %}
+        <a href="{{ link.href }}" class="nav-tab button">{{ link.name }}</a>
+    {% endfor %}
+</nav>

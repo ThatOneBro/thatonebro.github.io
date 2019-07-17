@@ -3,5 +3,9 @@
   <h1 class="logo">Derrick Farris</h1>
   <hr/>
   <p class="kicker">Engineer // Leader // Writer</p>
-  <nav class="home-nav"><a href="#about" class="nav-tab button">About</a><a href="#work" class="nav-tab button">Work</a><a href="#contact" class="nav-tab button">Contact</a></nav>
+  <nav class="home-nav">
+    {% for link in site.data.nav %}
+      <a href="{{ link.href }}" class="nav-tab button">{{ link.name }}</a>
+    {% endfor %}
+  </nav>
 </header>
