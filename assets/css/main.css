@@ -2952,14 +2952,15 @@ a {
     letter-spacing: 2px;
     padding: 0;
     margin: 0; }
-  .resume .resume-wrap .resume-embed {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 50%;
-    min-height: 700px; }
-    @media (max-width: 768px) {
-      .resume .resume-wrap .resume-embed {
-        width: 100%; } }
+  .resume .resume-wrap {
+    margin-bottom: 100px; }
+    .resume .resume-wrap .resume-embed {
+      margin-top: 40px;
+      width: 50%;
+      min-height: 700px; }
+      @media (max-width: 768px) {
+        .resume .resume-wrap .resume-embed {
+          width: 100%; } }
 
 .contact {
   padding-top: 100px;
