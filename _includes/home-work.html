@@ -1,27 +1,17 @@
 
 <section class="work">
   <h3 id="work">Work</h3>
-  <div class="work-wrap">
-    <div class="top-nodes-wrap retract-wrap">
-      <div data-folder="/work/work-designing" data-file="work-designing.html" class="node top-node1 outer-node">
-        <h4>Designing</h4>
-      </div>
-      <div data-folder="/work/work-coding" data-file="work-coding.html" class="node top-node2 outer-node">
-        <h4>Coding</h4>
-      </div>
-    </div>
-    <div class="top-connectors-wrap">
-      <div class="connector top-connector"></div>
-      <div class="connector top-connector"></div>
-    </div>
-    <div class="node center-node face-node">
-      <h4>Derrick</h4>
-    </div>
-    <div class="connector bottom-connector"></div>
-    <div class="bottom-node-wrap retract-wrap">
-      <div data-folder="/work/work-teaching" data-file="work-teaching.html" class="node bottom-node outer-node">
-        <h4>Teaching</h4>
-      </div>
+  <div class="work-wrap container">
+    <div class="row">
+      {% for project in site.data.projects %}
+        <div class="col-md-12 project-thumb">
+          <h4 class="project-name">{{ project.name }}</h4>
+          <figure class="figure">
+            <a href="{{ project.url }}"><img src="assets/img/{{ project.img }}" class="figure-img img-fluid rounded" alt="{{ project.img-alt }}"></a>
+            <figcaption class="figure-caption">{{ project.description }}</figcaption>
+          </figure>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>

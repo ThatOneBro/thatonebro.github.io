@@ -1,0 +1,28 @@
+-
+  name: Node.js Development Tutorial
+  url: https://www.youtube.com/watch?v=zbwT8aXeLwk
+  img: 'tutorial-vid-screenie.png'
+  img-alt: A screenshot of a random moment in the video.
+  description: >
+    A few years back I started a tutorial series to teach beginners how to make simple Node.js web applications.
+    However, looking back I thought all of the videos minus this one were not too helpful. I've left this video up
+    and since its upload, it has received 2.5k views and a lot of positive feedback.
+-
+  name: Shardus.com
+  url: https://shardus.com
+  img: 'shardus-site.png'
+  img-alt: An image of the Shardus.com website.
+  description: >
+    Last year I designed the Shardus.com website while working on the Shardus project. 
+    While working at Shardus as a lead engineer,
+    I also had the opportunity to design the website to display the project's vision.
+-
+  name: 'Article: Working in Blockchain'
+  url: https://www.linkedin.com/pulse/some-things-ive-learned-working-blockchain-part-2-derrick-farris/
+  img: 'article-screenie.png'
+  img-alt: A screenshop of the article.
+  description: > 
+    While working at Shardus, I published two articles describing what I had learned working in blockchain,
+    and specifically a blockchain startup. I wrote both articles to help those who are getting into the field
+    and generally those who are entering the startup space for the first time, and between the two, this article 
+    received the most positive feedback.
