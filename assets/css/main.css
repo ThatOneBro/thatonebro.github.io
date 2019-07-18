@@ -2786,10 +2786,13 @@ a {
     letter-spacing: 2px;
     padding: 0;
     margin: 0; }
+  .intro .intro-wrap .intro-msg {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 50px; }
   .intro .intro-wrap #introVid {
     width: 500px;
-    height: 400px;
-    margin-top: 25px; }
+    margin-top: 10px; }
     @media (max-width: 768px) {
       .intro .intro-wrap #introVid {
         width: 100%; } }
