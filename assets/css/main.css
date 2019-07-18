@@ -2788,11 +2788,15 @@ a {
     margin: 0; }
   .intro .intro-wrap .intro-msg {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 50px; }
+    .intro .intro-wrap .intro-msg.accent {
+      color: #414040; }
   .intro .intro-wrap #introVid {
     width: 500px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    border-bottom: 6px solid #d73931;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4); }
     @media (max-width: 768px) {
       .intro .intro-wrap #introVid {
         width: 100%; } }
