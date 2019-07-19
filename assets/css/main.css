@@ -2704,6 +2704,33 @@ a {
       -ms-flex-item-align: end;
           align-self: flex-end; }
 
+.generic-text {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px; }
+  .generic-text h3 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 50px; }
+  .generic-text .wrap {
+    display: inline-block;
+    text-align: center;
+    width: 50%; }
+    @media (max-width: 768px) {
+      .generic-text .wrap {
+        width: 100%;
+        padding: 0px 20px; } }
+  .generic-text p {
+    font-size: 20px; }
+  .generic-text img {
+    width: 50%;
+    margin: 10px 20px 40px; }
+
 .mobile-nav-toggle {
   display: none;
   height: 50px;
@@ -2963,9 +2990,12 @@ a {
   .work .work-wrap {
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 50%; }
+    width: 50%; }
     .work .work-wrap .project-thumb {
       margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      .work .work-wrap {
+        width: 100%; } }
 
 .resume {
   text-align: center;
