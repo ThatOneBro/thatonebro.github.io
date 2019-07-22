@@ -5,8 +5,10 @@ projects:
 files:
 - {name: 'Romaja-Hangeul Converter', link: 'http://derrickfarris.com/files/RomajaConverter.jar'}
 
+tagline: Engineer // Writer // Leader
+
 about-me: >
-  My name is Derrick Farris and I am an engineer, leader, and writer. One phrase that might best describe me is a "creator of things".
+  My name is Derrick Farris and I am an engineer, writer, and leader. One phrase that might best describe me is a "creator of things".
   I really like to create things from what others might see as nothing. I also really enjoy knowing how things work and fixing them. 
   I often end up solving problems in ways that are considered unorthodox or haven't been proven, but I believe sometimes that's what's necessary; not every
   problem has an easy solution, but <strong>I believe every problem does have a solution.</strong>

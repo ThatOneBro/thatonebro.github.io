@@ -2,7 +2,7 @@
 <header class="header-home">
   <h1 class="logo">Derrick Farris</h1>
   <hr/>
-  <p class="kicker">Engineer // Leader // Writer</p>
+  <p class="kicker">{{ site.data.settings.tagline }}</p>
   <nav class="home-nav">
     {% for link in site.data.nav %}
       <a href="{{ link.href }}" class="nav-tab button">{{ link.name }}</a>
