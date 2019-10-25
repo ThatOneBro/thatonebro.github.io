@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/thatonebro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://derrickfarris.com
+  * I am thatonebro (https://keybase.io/thatonebro) on keybase.
+  * I have a public key ASDFhKoYTCjOqHbD9rPcwwKiE_ZKZOr-Km5eG6QcGVgAPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ee8cae6f30abb540bd69882e6162b44258bcbd255097342f883df7f282663dd0a",
+      "host": "keybase.io",
+      "kid": "0120c584aa184c28cea876c3f6b3dcc302a213f64a64eafe2a6e5e1ba41c1958003f0a",
+      "uid": "87547e49053d24127d007eddd774cf19",
+      "username": "thatonebro"
+    },
+    "merkle_root": {
+      "ctime": 1572016879,
+      "hash": "713fd82e5a6a8677783a6611eea23c2cbad041377d28571b0c51f2adc79af5a666cc28d29766b768a1405ab3e4e53f06612fbce5a5685128287b703f3f3764d4",
+      "hash_meta": "5c80271a50680f4f7c2d5bb84a99aa1adfa44d54bd8f8fff0bde3ae24f2a0f5b",
+      "seqno": 8396105
+    },
+    "service": {
+      "entropy": "YswEPI3c9dEd3R/gE4zHaw3G",
+      "hostname": "derrickfarris.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.0"
+  },
+  "ctime": 1572016899,
+  "expire_in": 504576000,
+  "prev": "ca7981d9d2190f27c9bea40fc4223a29f6bbf2698df19d635e23cbec3f973c1d",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxYSqGEwozqh2w/az3MMCohP2SmTq/ipuXhukHBlYAD8Kp3BheWxvYWTESpcCDMQgynmB2dIZDyfJvqQPxCI6Kfa78mmN8Z1jXiPL7D+XPB3EIHA6zBa9JNR3fd1KLqWCojRHfqj9f/UWLDJztDVHP4cXAgHCo3NpZ8RAntBCXKg2IeJep4lzqL2RBwWJMtWZxxQai6pJmRAagcZqqSAxSrNbpfG/6U6G3PtYtWCh5v45wkpraeBrn+dTBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIE9ew0tMIDqIyvpdugDugJtNwbjrrcfz9eaH0UuawXto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thatonebro
+
+==================================================================
